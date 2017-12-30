@@ -6,7 +6,7 @@ def read(fname):
 
 setup(
     name='pyang-jsontree-plugin',
-    version='0.2',
+    version='0.1',
     description=('A pyang plugin to produce a JSON representation of module trees for use in graph libraries'),
     long_description=read('README.md'),
     packages=['jsontree'],
