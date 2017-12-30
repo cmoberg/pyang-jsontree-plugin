@@ -18,5 +18,5 @@ setup(
     include_package_data=True,
     keywords=['yang', 'extraction', 'json'],
     classifiers=[],
-    entry_points={'pyang.plugin': 'module_jsontree_plugin=modulecatalog.modulecatalog:pyang_plugin_init'}
+    entry_points={'pyang.plugin': 'json_tree_plugin=jsontree.jsontree:pyang_plugin_init'}
 )
